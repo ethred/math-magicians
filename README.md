@@ -38,6 +38,7 @@ The **Maths Magicians React Project** is a beginner-level project that teaches y
 > The key features of this project include the following.
 
 - **It is a simple calculator that can be used to perform basic mathematical operations setup.**
+- **Simple calculations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
