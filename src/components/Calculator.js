@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Display from './Display';
 import calculate from './logic/calculate';
 
 const Calculator = () => {
@@ -17,11 +18,11 @@ const Calculator = () => {
       <div className="calculator_page">
         <div className="calculator">
           <div className="calculator_container">
-            <div className="calculator_screen">
+            <Display className="calculator_screen">
               {total}
               {operation}
               {next}
-            </div>
+            </Display>
             <div className="calculator_UI">
               <button type="button" onClick={buttonClicked} value="clear">AC</button>
               <button type="button" onClick={buttonClicked} value="pos-neg">+/-</button>
