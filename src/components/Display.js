@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 const Display = (props) => {
   const { className, children } = props;
-  console.log(children);
   return (
     <div className={className}>
       {children}
