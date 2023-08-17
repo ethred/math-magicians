@@ -93,7 +93,7 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Project supervised by [Microverse](https//www.microverse.org/)
+- Project supervised by [Microverse](https://www.microverse.org/)
 - [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
