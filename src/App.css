@@ -1,85 +1,15 @@
 html,
 body {
-  height: 100%;
   min-height: 100%;
 }
 
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   font-family: "Segoe UI", sans-serif;
+  flex-direction: column;
   background: linear-gradient(#cdd7d9, #e0e0e0, #d8d7d4);
-}
-
-.calculator {
-  max-width: 500px;
-  padding-left: 250px;
-}
-
-.calculator_screen {
-  padding: 15px;
-  font-size: 2em;
-  text-align: right;
-  background-color: #808080;
-  color: #fff;
-}
-
-.calculator_UI {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-button {
-  flex: 0 1 25%;
-  height: 70px;
-  color: #111;
-  font-size: 1em;
-  background: #e0e0e0;
-  border: 1px solid #808080;
-  cursor: pointer;
-}
-
-.btn_opaque {
-  background-color: #ffa500;
-  color: #000;
-}
-
-.btn_large {
-  flex: 0 1 50%;
-}
-
-.error_message,
-.loading_message,
-.quote_container {
-  padding: 50px;
-}
-
-.loading_message {
-  color: #324ab2;
-}
-
-.error_message {
-  color: #8f00ff;
-}
-
-.quote,
-.author {
-  font-family: "Segoe UI", sans-serif;
-  padding: 10px;
-  font-size: 1.25rem;
-  line-height: 200%;
-  text-align: center;
-}
-
-.quote_container {
-  justify-content: center;
-  text-align: center;
-}
-
-.author {
-  font-family: "Segoe UI", sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 50%;
+  padding: 20px;
+  color: #181212;
 }

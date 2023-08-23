@@ -1,0 +1,37 @@
+.calculator {
+  max-width: 500px;
+  padding-left: 300px;
+  margin-top: 30px;
+}
+
+.calculator_screen {
+  padding: 15px;
+  font-size: 2em;
+  text-align: right;
+  background-color: #808080;
+  color: #fff;
+}
+
+.calculator_UI {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  flex: 0 1 25%;
+  height: 70px;
+  color: #111;
+  font-size: 1em;
+  background: #e0e0e0;
+  border: 1px solid #808080;
+  cursor: pointer;
+}
+
+.btn_opaque {
+  background-color: #ffa500;
+  color: #000;
+}
+
+.btn_large {
+  flex: 0 1 50%;
+}
