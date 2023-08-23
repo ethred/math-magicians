@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 1.5em 1em;
   align-items: center;
-  background-color: rgb(5, 80, 99);
+  background-color: rgb(56, 185, 217);
 }
 
 h1 {
@@ -29,4 +29,5 @@ h1 {
 
 .navbar ul li a:hover {
   border-bottom: 2px solid white;
+  color: black;
 }
