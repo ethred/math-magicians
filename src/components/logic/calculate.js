@@ -24,7 +24,6 @@ export default function calculate(obj, buttonName) {
       }
       return { ...obj, next: buttonName };
     }
-    // If case there is no operation, update 'next' and 'clear' the value
     if (obj.next && obj.next !== '0') {
       return {
         next: obj.next + buttonName,
@@ -64,7 +63,6 @@ export default function calculate(obj, buttonName) {
         operation: null,
       };
     }
-    // If '=' is with no operation, there is nothing to do
     return {};
   }
 
@@ -78,19 +76,10 @@ export default function calculate(obj, buttonName) {
     return {};
   }
 
-  // Button must contain an operation
-
-  // When the user presses an operation button without having entered a number first, do nothing.
-  // if (!obj.next && !obj.total) {
-  //   return {};
-  // }
-
-  // When the user presses an operation after pressing '='
   if (!obj.next && obj.total && !obj.operation) {
     return { ...obj, operation: buttonName };
   }
 
-  // When the user presses an operation button and there is an existing operation
   if (obj.operation) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
@@ -107,14 +96,10 @@ export default function calculate(obj, buttonName) {
     };
   }
 
-  // In case if there is no operation yet, but the user typed it
-
-  // The user hasn't typed a number yet, just to save the operation as it is
   if (!obj.next) {
     return { operation: buttonName };
   }
 
-  // If the operation is saved and shifted from 'next' into 'total'
   return {
     total: obj.next,
     next: null,

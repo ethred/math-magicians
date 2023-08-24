@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Display from './Display';
 import calculate from './logic/calculate';
+import './Calculator.css';
 
 const Calculator = () => {
   const [display, newDisplay] = useState({ total: 0, next: null, operation: null });
@@ -18,6 +19,7 @@ const Calculator = () => {
       <div className="calculator_page">
         <div className="calculator">
           <div className="calculator_container">
+            <h1> Lets Do some Maths </h1>
             <Display className="calculator_screen">
               {total}
               {operation}

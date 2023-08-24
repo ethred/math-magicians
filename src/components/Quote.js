@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import './Quote.css';
 
 export default function Quote() {
   const [error, setError] = useState(false);

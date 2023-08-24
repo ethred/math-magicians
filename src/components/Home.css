@@ -1,0 +1,21 @@
+.home_page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+  margin: 25px;
+}
+
+.home_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  animation: header-animation 2s infinite;
+  color: #2a44ef;
+}
+
+.home_paragraph {
+  font-size: 1.5rem;
+}
