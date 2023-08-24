@@ -46,7 +46,7 @@ The **Maths Magicians React Project** is a beginner-level project that teaches y
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-coming soon
+ https://ethred.github.io/math-magicians/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
